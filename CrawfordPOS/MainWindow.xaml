@@ -1,0 +1,28 @@
+﻿<Window x:Name="MainWindow1" x:Class="CrawfordPOS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="CRAWFORD POS SOFTWARE" Height="650.39" Width="1361.2" WindowStyle="ThreeDBorderWindow" WindowState="Maximized" WindowStartupLocation="CenterScreen" Icon="Icon/images.jpg" Padding="0,0,0,10" BorderThickness="10,0,10,10" Loaded="MainWindow1_Loaded" Closing="MainWindow1_Closing" BorderBrush="#FFABADB3">
+    <Grid Margin="0,0,2,0">
+        <Image x:Name="Image" HorizontalAlignment="Left" Height="519" Margin="36,67,0,0" VerticalAlignment="Top" Width="358" Source="Icon/images.jpg"/>
+        <TextBlock x:Name="DateTextBlock" HorizontalAlignment="Left" Margin="997,39,0,0" TextWrapping="Wrap" Text="Saturday, June 17, 2018 " VerticalAlignment="Top" Height="26" Width="199" FontSize="14" FontWeight="Bold" TextAlignment="Right"/>
+        <TextBlock x:Name="RoleTextBlock" HorizontalAlignment="Left" Margin="473,39,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="26" Width="65" FontSize="14" Visibility="Hidden"/>
+        <Button x:Name="LanguageButton" Content="YORUBA" HorizontalAlignment="Left" Margin="1239,80,0,0" VerticalAlignment="Top" Width="78" Height="66" FontSize="14" Click="languageButton_Click"/>
+        <Button x:Name="ChangeItBackButton" Content="ENGLISH" HorizontalAlignment="Left" Margin="1239,80,0,0" VerticalAlignment="Top" Width="78" Height="66" FontSize="14" Click="changeItBackButton_Click" Visibility="Hidden"/>
+        <TextBlock x:Name="RoleTextBlock1" HorizontalAlignment="Left" Margin="473,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="88" FontSize="14" FontWeight="Bold" UseLayoutRounding="False"/>
+        <TextBlock x:Name="TimeTextBlock" HorizontalAlignment="Left" Margin="1201,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="24" Width="128" FontSize="14" FontWeight="Bold"/>
+        <TextBlock x:Name="LanguageTextBlock" HorizontalAlignment="Left" Height="42" Margin="452,104,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="109" Visibility="Hidden"/>
+        <TextBlock x:Name="ButtonTextBlock" HorizontalAlignment="Left" Margin="678,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Center" FontSize="14" FontWeight="Bold" Width="93"/>
+        <StackPanel x:Name="ButtonStackPanel" HorizontalAlignment="Left" Height="203" Margin="454,175,-13,0" VerticalAlignment="Top" Width="890" Orientation="Horizontal" MouseEnter="ButtonStackPanel_MouseEnter" GotMouseCapture="ButtonStackPanel_GotMouseCapture">
+            <Button x:Name="SalesPointButton" Content="SALES POINT" HorizontalContentAlignment="Center" FontSize="16" VerticalContentAlignment="Center" Margin="0,0,15,-65" Width="109" Click="button_Click" Height="165" VerticalAlignment="Bottom"/>
+            <Button x:Name="ReportsButton" Content="REPORTS" HorizontalContentAlignment="Center" FontSize="16" VerticalContentAlignment="Center" Margin="0,0,15,-65" Height="165" Width="110" VerticalAlignment="Bottom" Click="reportsButton_Click"/>
+            <Button x:Name="EmployeeButton" Content="EMPLOYEES" HorizontalContentAlignment="Center" FontSize="16" VerticalContentAlignment="Center" Margin="0,103,15,-65" Height="165" Width="110" VerticalAlignment="Top" Click="employeeButton_Click" MouseEnter="EmployeeButton_MouseEnter"/>
+            <Button x:Name="StockListButton" Content="STOCK LIST" HorizontalContentAlignment="Center" FontSize="16" VerticalContentAlignment="Center" Margin="0,0,15,-65" Height="165" Width="110" VerticalAlignment="Bottom" Click="StockListButton_Click"/>
+            <Button x:Name="CustomersButton" Content="CUSTOMERS" HorizontalContentAlignment="Center" FontSize="16" VerticalContentAlignment="Center" Margin="0,103,15,-65" Width="109" Click="CustomersButton_Click_1" Height="165" VerticalAlignment="Top"/>
+            <Button x:Name="FilesButton" Content="FILES" HorizontalContentAlignment="Center" FontSize="16" VerticalContentAlignment="Center" Margin="0,0,15,-65" Height="165" Width="110" VerticalAlignment="Bottom" Click="FilesButton_Click_1"/>
+            <Button x:Name="LogOutButton" Content="LOGOUT" HorizontalContentAlignment="Center" FontSize="16" VerticalContentAlignment="Center" Margin="0,0,15,-65" Height="165" Width="107" VerticalAlignment="Bottom" Click="logOutButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

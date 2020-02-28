@@ -1,0 +1,16 @@
+﻿<Window x:Name="CustomersCatalogue1" x:Class="CrawfordPOS.CustomersCatalogue"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CrawfordPOS"
+        mc:Ignorable="d"
+        Title="Customers Catalogue" Height="309.279" Width="346.392" FontSize="14" WindowStartupLocation="CenterOwner" WindowStyle="None" Loaded="CustomersCatalogue1_Loaded" BorderThickness="10" BorderBrush="#FFABADB3" KeyDown="CustomersCatalogue1_KeyDown">
+    <Window.Resources>
+        <!--<local:POSDataset x:Key="pOSDataset"/>-->
+        <CollectionViewSource x:Key="customerInfoViewSource" Source="{Binding CustomerInfo, Source={StaticResource pOSDataset}}"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource customerInfoViewSource}" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="100,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142"><Run Text="Customers' Catalogue" TextDecorations="Underline"/></TextBlock>
+    </Grid>
+</Window>
