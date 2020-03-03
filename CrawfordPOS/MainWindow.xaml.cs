@@ -82,7 +82,7 @@ namespace CrawfordPOS
 
         private void reportsButton_Click(object sender, RoutedEventArgs e)
         {
-            if (ReportsButton.Content == "iroyin")
+            if ((string)ReportsButton.Content == "iroyin")
             {
                 ButtonTextBlock.Text = "iroyin";
             }

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CrawfordPOS"
         mc:Ignorable="d"
         Title="Employees" Height="345.828" Width="393.839" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen" FontSize="36" BorderThickness="10,0,10,10" BorderBrush="#FFABADB3" Closing="Window_Closing" Loaded="Window_Loaded">
-    <Window.Resources>
+    <Window.Resources>            
         <local:CustomerDataset x:Key="customerDataset"/>
         <CollectionViewSource x:Key="salesPersonnelViewSource" Source="{Binding SalesPersonnel, Source={StaticResource customerDataset}}"/>
     </Window.Resources>

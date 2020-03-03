@@ -7642,7 +7642,7 @@ SELECT Code, Name, HomeAddress, HomeNumber1, HomeNumber2, JobCode, OfficeAddress
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CrawfordPOS.Properties.Settings.Default.POSConnectionString;
+          //  this._connection.ConnectionString = global::TheDeadProgramsComeAlive.Properties.Settings.Default.POSConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8346,7 +8346,7 @@ SELECT Code, Name, HomeAddress, HomeNumber1, HomeNumber2, JobCode, OfficeAddress
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CrawfordPOS.Properties.Settings.Default.POSConnectionString;
+           // this._connection.ConnectionString = global::TheDeadProgramsComeAlive.Properties.Settings.Default.POSConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8607,7 +8607,7 @@ SELECT Code, Name, HomeAddress, HomeNumber1, HomeNumber2, JobCode, OfficeAddress
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CrawfordPOS.Properties.Settings.Default.POSConnectionString;
+            //this._connection.ConnectionString = global::TheDeadProgramsComeAlive.Properties.Settings.Default.POSConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8843,7 +8843,7 @@ SELECT Code, Name, HomeAddress, HomeNumber1, HomeNumber2, JobCode, OfficeAddress
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CrawfordPOS.Properties.Settings.Default.POSConnectionString;
+          //  this._connection.ConnectionString = global::TheDeadProgramsComeAlive.Properties.Settings.Default.POSConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9080,7 +9080,7 @@ SELECT Code, Name, HomeAddress, HomeNumber1, HomeNumber2, JobCode, OfficeAddress
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CrawfordPOS.Properties.Settings.Default.POSConnectionString;
+         //   this._connection.ConnectionString = global::TheDeadProgramsComeAlive.Properties.Settings.Default.POSConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9336,7 +9336,7 @@ SELECT Code, Name, HomeAddress, HomeNumber1, HomeNumber2, JobCode, OfficeAddress
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CrawfordPOS.Properties.Settings.Default.POSConnectionString;
+          //  this._connection.ConnectionString = global::TheDeadProgramsComeAlive.Properties.Settings.Default.POSConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9635,7 +9635,7 @@ SELECT Code, Name, HomeAddress, HomeNumber1, HomeNumber2, JobCode, OfficeAddress
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CrawfordPOS.Properties.Settings.Default.POSConnectionString;
+           // this._connection.ConnectionString = global::TheDeadProgramsComeAlive.Properties.Settings.Default.POSConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9891,7 +9891,7 @@ SELECT Code, Description FROM Occupation WHERE (Code = @Code)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CrawfordPOS.Properties.Settings.Default.POSConnectionString;
+            //this._connection.ConnectionString = global::TheDeadProgramsComeAlive.Properties.Settings.Default.POSConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10237,7 +10237,7 @@ SELECT Code, Description FROM Occupation WHERE (Code = @Code)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CrawfordPOS.Properties.Settings.Default.POSConnectionString;
+            //this._connection.ConnectionString = global::TheDeadProgramsComeAlive.Properties.Settings.Default.POSConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10583,7 +10583,7 @@ SELECT Code, Description FROM Occupation WHERE (Code = @Code)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CrawfordPOS.Properties.Settings.Default.POSConnectionString;
+        //    this._connection.ConnectionString = global::TheDeadProgramsComeAlive.Properties.Settings.Default.POSConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10929,7 +10929,7 @@ SELECT Code, Description FROM Occupation WHERE (Code = @Code)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CrawfordPOS.Properties.Settings.Default.POSConnectionString;
+           // this._connection.ConnectionString = global::TheDeadProgramsComeAlive.Properties.Settings.Default.POSConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11283,7 +11283,7 @@ SELECT Code, Name, RoleCode FROM SalesPersonnel WHERE (Code = @Code)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CrawfordPOS.Properties.Settings.Default.POSConnectionString;
+         //   this._connection.ConnectionString = global::TheDeadProgramsComeAlive.Properties.Settings.Default.POSConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11647,7 +11647,7 @@ SELECT Code, Name, RoleCode FROM SalesPersonnel WHERE (Code = @Code)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CrawfordPOS.Properties.Settings.Default.POSConnectionString;
+            //this._connection.ConnectionString = global::TheDeadProgramsComeAlive.Properties.Settings.Default.POSConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11935,7 +11935,7 @@ SELECT UserCode, PassCode FROM UserVerification WHERE (UserCode = @UserCode)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CrawfordPOS.Properties.Settings.Default.POSConnectionString;
+            //this._connection.ConnectionString = global::TheDeadProgramsComeAlive.Properties.Settings.Default.POSConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Customers" Height="490.753" Width="766.267" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" Loaded="CustomerWindow_Loaded" BorderThickness="10,0,10,10" BorderBrush="#FFABADB3">
     <Window.Resources>
-        <!--<local:POSDataset x:Key="pOSDataset"/>-->
+        <local:POSDataset x:Key="pOSDataset"/>
         <CollectionViewSource x:Key="customerInfoViewSource" Source="{Binding CustomerInfo, Source={StaticResource pOSDataset}}"/>
         <CollectionViewSource x:Key="positionViewSource" Source="{Binding Position, Source={StaticResource pOSDataset}}"/>
     </Window.Resources>
